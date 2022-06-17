@@ -1,0 +1,79 @@
+.h1{
+    color: darkolivegreen;
+
+}
+.header{
+    background-color: #478A;
+    border: groove;
+    border-width: 3mm;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.jetgrid{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:center;
+    
+}
+.jetgrid a{
+margin-left:2cm ;
+}
+.games{
+    display: flex;
+    background-color: burlywood;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-size: small;
+}
+.footer{
+    display: flex;
+    border: groove;
+    border-width: 3mm;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #478A;
+}
+p,h2{
+    text-align: center;
+}
+.body{
+    background-color: (#00ff00);
+}
+.AboutMe{
+    margin-top: 3cm;
+    border: 1cm;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgba(80, 11, 11, 0.806);
+    transition:color .3s linear 1s;
+    
+}
+.AboutMe:hover{
+    color: rgba(38, 194, 242, 0.747);
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: darkblue;
+}
+.games{
+    position: relative;
+}
+.games p{
+    position: absolute;
+    transform: translate(-98%,-2%);
+    left: 46%;
+    opacity: 0.2;
+}
+.games:hover p{
+    opacity: 1;
+}
